@@ -1,0 +1,256 @@
+/* 
+7C00FE
+F9E400
+FFAF00
+F5004F
+
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.responsivejudul {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.judulgerak {
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 30px;}
+  75%  {top: 10px}
+  100% {top: 0px;}
+}
+
+.subjudulgerak {
+  position: relative;
+  animation: submymove 5s infinite;
+}
+
+@keyframes submymove {
+  0%   {left: 0px;}
+  25%  {left: 10px;}
+  75%  {left: -10px}
+  100% {left: 0px;}
+}
+
+.subjudulgerak2 {
+  position: relative;
+  animation: submymove2 5s infinite;
+}
+
+@keyframes submymove2 {
+  0%   {left: 0px;}
+  25%  {left: -10px;}
+  75%  {left: 10px}
+  100% {left: 0px;}
+}
+
+.responsive {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.responsivebesar {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySlides {display:none;}
+
+p {
+  font-size: 18pt;
+  opacity: 1;
+}
+
+#chart {
+  max-width: 750px;
+  margin: 35px auto;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  position: fixed;
+  /* margin: 30px; */
+  z-index: 1;
+}
+
+.tombol {
+  border-radius: 4px;
+  background-color: #F5004F;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.tombol span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.tombol span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.tombol:hover span {
+  padding-right: 25px;
+}
+
+.tombol:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.batas {
+  /* background-image: url("./image/ungu.png"); */
+  /* margin-top: -0.56rem; */
+  width: 100%;
+  height: auto;
+  margin-bottom: -2.9rem;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.sesi {
+  width: 100%;
+}
+
+
+
+.box{
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  border: 5px double #173B45;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#judul{
+  margin: auto;
+  padding: 10px;
+  background: url("image/bg_judul.png") no-repeat center bottom / cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #7C00FE;
+}
+
+#bag0{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+#bag1{
+  margin: auto;
+  padding: 10px;
+  background-color: #F9E400;
+}
+
+#bag2{
+  margin: auto;
+  padding: 10px;
+  background-color: #7C00FE;
+}
+
+#bag3{
+  margin: auto;
+  padding: 10px;
+  background-color: #FFAF00;
+}
+
+#bag4{
+  margin: auto;
+  padding: 10px;
+  background-color: #7C00FE;
+}
+
+#bag5{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+#bag6{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+#bag7{
+  margin: auto;
+  padding: 10px;
+  background-color: #F5004F;
+}
+
+#bag8{
+  margin: auto;
+  padding: 10px;
+  background-color: #7C00FE;
+}
+
+#bag9{
+  margin: auto;
+  padding: 10px;
+  background-color: #F9E400;
+}
+
+#bag10{
+  margin: auto;
+  padding: 10px;
+  background-color: #FFAF00;
+}
+
+#bag11{
+  margin: auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+#bag12{
+  margin: auto;
+  padding: 10px;
+  background-color: #F5004F;
+}
+
+
+
+#panel1 {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    opacity: 100%;
+    position: fixed;
+}
